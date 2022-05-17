@@ -26,8 +26,7 @@ except: print("Sorry, the number is not found")
 '''
 
 def zeros_to_end(arr: list = [23, 0, 873, 0, 14, 50, 0]) -> list:
-    my_list = [i for i in arr if i == 0]
-    n = len(my_list)
+    n = arr.count(0)
     for i in range(n):
           arr.remove(0)
     for i in range(n):
