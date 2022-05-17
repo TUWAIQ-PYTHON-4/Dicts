@@ -1,4 +1,4 @@
-'''phone_book = {"0531511811":"Amal","0551511231":"Mohammed","0531511113":"Khadijah","0541511123":"Abdullah","0591511128":"Rawan","0581521129":"Faisal","0563513453":"Layla"}
+phone_book = {"0531511811":"Amal","0551511231":"Mohammed","0531511113":"Khadijah","0541511123":"Abdullah","0591511128":"Rawan","0581521129":"Faisal","0563513453":"Layla"}
 phone_number = str(input("enter the phone number: "))
 #print(phone_book[input("enter the phone number: ")])
 
@@ -12,7 +12,7 @@ else:
             print("Sorry, the number is not found")
     else:
         print("This is invalid number")
-'''
+
 def list_of_numbers ():
     defult_list = [23, 0, 873, 0, 14, 50, 0]
     new_list =[]
