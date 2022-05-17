@@ -25,7 +25,7 @@ else:
 # Q2:Write a function that receives a list containing different numbers ex: [23, 0, 873, 0, 14, 50, 0], rearranges the list so that the zeros are the end of the list, and finally returns the arranged list.
 
 def order_list(the_list:list):
-  the_list.sort()
+  the_list.sort(reverse=True)
   print(the_list)
 
 order_list([23, 0, 873, 0, 14, 50, 0])
