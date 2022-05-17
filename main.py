@@ -4,12 +4,10 @@ search_term = input("\nEnter the the phone number ")
 
 
 
-if search_term in phone_book:
-    print(phone_book.get(search_term)) 
-
-elif search_term !=10 or not search_term.isnumeric:
+if search_term !=10 and not search_term.isnumeric():
     print("This is invalid number")
-    
+elif search_term in phone_book:
+    print(phone_book.get(search_term))    
 else:
     print("Sorry, the number is not found")
 
