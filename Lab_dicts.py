@@ -28,7 +28,7 @@ for i in number:
     else:
         other_counter +=1
         break
-if counter < 10 or other_counter > 0:
+if (counter < 10 or counter >10) or other_counter > 0:
     print("This is invalid number")
 else: 
     for x, y in phone_book_dict.items():
@@ -59,4 +59,4 @@ def shift_zeroz(new_list):
     shifted_list.extend(zeroz_list)
     return shifted_list
 
-print(shift_zeroz([1,2,4,6,0,1,2,0,1,0,0,1]))
+shift_zeroz([1,2,4,6,0,1,2,0,1,0,0,1])
