@@ -9,7 +9,9 @@ def c (arr):
              break
     return r
 
-my_dict = {"0531511811":"Amal" ,"0551511231":"Mohammed"}
+my_dict = { "Name":"Number", "Amal":"0531511811","Mohammed":"0551511231","Khadijah":"0531511113","Abdullah":"0541511123","Rawan":"0591511128","Faisal":"0581521129","Layla":"0563513453"}
+
+
 number=input("plz select phone number :  ")
 
 if len(number)!=10 or c(number) ==True :
